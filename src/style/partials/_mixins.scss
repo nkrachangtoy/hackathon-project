@@ -1,0 +1,24 @@
+// FONT MIXINS //
+@mixin header($font-size, $line-height) {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: $font-size;
+  line-height: $line-height;
+}
+@mixin subheader($font-size, $line-height) {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: $font-size;
+  line-height: $line-height;
+}
+@mixin text($font-size, $line-height) {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+// BUTTON //
+@mixin btn($br-color, $bg-color) {
+  border: 3px solid $br-color;
+  border-radius: 50%;
+  background: $bg-color;
+  width: 250px;
+}
