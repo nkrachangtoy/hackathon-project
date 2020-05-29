@@ -102,7 +102,7 @@ li {
 }
 
 .hero-banner {
-  background-image: url("../assets/Images/hero.png");
+  background: url("../assets/Images/hero.jpg");
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
@@ -132,6 +132,9 @@ li {
   border-radius: 10px;
   background: #6bc1ff;
   width: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 .white-wave-1 {
