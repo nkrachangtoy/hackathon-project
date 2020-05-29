@@ -4,11 +4,18 @@
 // HEADER //
 .site-header {
   @extend .container;
-  padding: 0 180px;
+  padding: 24px 180px;
   background: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  &__logo-wrapper {
+    display: flex;
+  }
+  &__logo {
+    @include text(32px, 36px);
+    color: white;
+  }
 }
 
 .nav {

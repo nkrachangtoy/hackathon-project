@@ -11,7 +11,10 @@ function Header() {
   return (
     <header className="site-header">
       <NavLink to="/" className="site-header__navlink">
-        <img src={logo} alt="CHANGE ROOM" />
+        <div className="site-header__logo-wrapper">
+          <img src={logo} alt="CHANGE ROOM" />
+          <p className="site-header__logo">DELTA ROOM</p>
+        </div>
       </NavLink>
       <nav className="nav">
         <div className="nav__social-media-wrapper">
