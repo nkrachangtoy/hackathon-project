@@ -96,6 +96,7 @@
 .content {
   @extend .container;
   padding: 80px 180px;
+  height: 100vh;
   background: linear-gradient(
     0.03deg,
     rgba(89, 105, 246, 0.1488) 0.03%,
@@ -103,13 +104,16 @@
   );
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   &__chart-img {
     max-width: 1280px;
     max-height: 720px;
     width: 100%;
     height: 100%;
+  }
+  &__sign-up-wrapper {
+    width: 42%;
   }
 
   &__title {
