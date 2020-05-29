@@ -1,6 +1,6 @@
 import React from "react";
 
-import ChartImage from "../assets/Images/bar-chart.png";
+import ChartImage from "../assets/Images/bar-chart.svg";
 
 function Testimontials() {
   return (

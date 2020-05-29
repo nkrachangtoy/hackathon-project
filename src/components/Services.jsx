@@ -9,11 +9,6 @@ function Services() {
         <div className="service__one">
           <div className="service__one-1">
             <h1 className="service__one-1-title"> Delta Room Services</h1>
-            <p className="service__one-1-text">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et
-            </p>
           </div>
           ​
           <div className="service__one-2">

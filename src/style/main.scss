@@ -112,7 +112,6 @@
     height: 100%;
   }
 
-  height: 150vh;
   &__title {
     @include text(60px, 68px);
     font-weight: bold;
@@ -178,6 +177,7 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 23px;
+    margin-bottom: 100px;
   }
   &__one-2-text {
     font-family: Helvetica;
@@ -185,6 +185,7 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 23px;
+    margin-bottom: 100px;
   }
   &__two-1-text {
     font-family: Helvetica;
@@ -192,6 +193,7 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 23px;
+    margin-bottom: 100px;
   }
   &__two-2-text {
     font-family: Helvetica;
@@ -199,6 +201,7 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 23px;
+    margin-bottom: 100px;
   }
   &__one-h3-title {
     font-family: Helvetica;
@@ -209,20 +212,21 @@
     color: #414fb0;
   }
   &__container {
+    padding: 40px 80px;
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 900px;
     @extend .container;
-    width: auto;
   }
   &__one {
+    margin: 100px;
     display: flex;
     flex-direction: column;
     width: 50%;
     //padding-left: 200px;
   }
   &__two {
+    margin: 100px;
     display: flex;
     flex-direction: column;
     //padding-left: 100px;
