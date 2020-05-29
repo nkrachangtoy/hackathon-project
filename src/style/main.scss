@@ -49,14 +49,14 @@
 // HERO BANNER //
 .hero-banner {
   background: url("../assets/Images/hero.jpg");
-  width: 100%;
-  height: 100vh;
+  height: 988px;
+  background-position-x: -200px;
   background-repeat: no-repeat;
   background-size: cover;
   @extend .container;
   &__wrapper {
-    @extend .container;
-    width: 530px;
+    padding-left: 180px;
+    width: 50%;
   }
   &__title {
     @include header(60px, 68px);
@@ -69,32 +69,16 @@
   &__btn {
     &--start {
       @include btn(#6bc1ff, #6bc1ff);
-      @include text(14px, 22px);
+      @include text(18px, 22px);
+      padding: 6px 0;
+      color: white;
+      margin-right: 36px;
+    }
+    &--sign-up {
+      @include btn(white, transparent);
+      @include text(18px, 22px);
+      padding: 6px 0;
+      color: white;
     }
   }
-}
-
-// WAVES //
-.white-wave-1 {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  z-index: 1;
-}
-.white-wave-2 {
-  position: absolute;
-  left: 1750px;
-  top: 440px;
-  z-index: 1;
-}
-.blue-wave-1 {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-.blue-wave-2 {
-  position: absolute;
-  left: 1750px;
-  top: 240px;
-  z-index: 0;
 }
