@@ -96,7 +96,7 @@
 .content {
   @extend .container;
   padding: 80px 180px;
-  height: 100vh;
+  height: 100%;
   background: linear-gradient(
     0.03deg,
     rgba(89, 105, 246, 0.1488) 0.03%,
@@ -120,11 +120,13 @@
     @include text(60px, 68px);
     font-weight: bold;
     color: #414fb0;
+    margin: 24px 0;
   }
   &__text {
     &--para {
       @include text(24px, 34px);
       color: rgba(#333333, 0.7);
+      margin: 32px 0;
     }
     &--bold {
       @include text(34px, 34px);
@@ -134,6 +136,7 @@
     &--subheader {
       @include text(24px, 34px);
       color: #414fb0;
+      margin-top: 32px;
     }
     &--sign-up {
       @include text(32px, 34px);
