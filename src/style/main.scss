@@ -1,2 +1,66 @@
 @import "./partials/mixins";
 @import "./partials/global";
+
+// HEADER //
+.site-header {
+  @extend .container;
+  padding: 0 180px;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  &__social-media-wrapper {
+    width: 136px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__icons {
+    width: 24px;
+    height: 24px;
+  }
+  &__list-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__list {
+    @include text(20px, 24px);
+    color: white;
+    margin-left: 24px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+// WAVES //
+.white-wave-1 {
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  z-index: 1;
+}
+.white-wave-2 {
+  position: absolute;
+  left: 465px;
+  top: 450px;
+  z-index: 1;
+}
+.blue-wave-1 {
+  position: absolute;
+  left: 0px;
+  top: 100px;
+}
+.blue-wave-2 {
+  position: absolute;
+  left: 470px;
+  top: 300px;
+  z-index: 0;
+}
