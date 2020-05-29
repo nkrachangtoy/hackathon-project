@@ -18,7 +18,7 @@
 // BUTTON //
 @mixin btn($br-color, $bg-color) {
   border: 3px solid $br-color;
-  border-radius: 50%;
+  border-radius: 10px;
   background: $bg-color;
   width: 250px;
 }

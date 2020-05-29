@@ -5,7 +5,6 @@
 .site-header {
   @extend .container;
   padding: 24px 180px;
-  background: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -43,6 +42,31 @@
     margin-left: 24px;
     &:first-child {
       margin-left: 0;
+    }
+  }
+}
+
+// HERO BANNER //
+.hero-banner {
+  background-image: url("../assets/Images/hero.png");
+  width: 100%;
+  height: 931px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__wrapper {
+    width: 530px;
+  }
+  &__title {
+    @include header(60px, 68px);
+    color: white;
+  }
+  &__text {
+    @include text(14px, 22px);
+    color: rgba(white, 0.7);
+  }
+  &__btn {
+    &--start {
+      @include btn(#6bc1ff, #6bc1ff);
     }
   }
 }
