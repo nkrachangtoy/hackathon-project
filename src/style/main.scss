@@ -50,10 +50,12 @@
 .hero-banner {
   background-image: url("../assets/Images/hero.png");
   width: 100%;
-  height: 931px;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  @extend .container;
   &__wrapper {
+    @extend .container;
     width: 530px;
   }
   &__title {
@@ -74,24 +76,24 @@
 // WAVES //
 .white-wave-1 {
   position: absolute;
-  top: 200px;
+  top: 0px;
   left: 0px;
   z-index: 1;
 }
 .white-wave-2 {
   position: absolute;
-  left: 465px;
-  top: 450px;
+  left: 1750px;
+  top: 440px;
   z-index: 1;
 }
 .blue-wave-1 {
   position: absolute;
   left: 0px;
-  top: 100px;
+  top: 0px;
 }
 .blue-wave-2 {
   position: absolute;
-  left: 470px;
-  top: 300px;
+  left: 1750px;
+  top: 240px;
   z-index: 0;
 }
