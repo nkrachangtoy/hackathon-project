@@ -41,12 +41,15 @@ function Header() {
         </div>
 
         <div className="hero-banner__wrapper">
-          <span className="hero-banner__title">Welcome</span>
+          <span className="hero-banner__title">
+            Sell More With Virtual Reality Product Display
+          </span>
           <p className="hero-banner__text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod,
-            eaque cumque! Optio dolor ex beatae ad vel dicta, asperiores
-            consectetur excepturi exercitationem est labore! Exercitationem,
-            commodi pariatur. Sunt, atque possimus?
+            Delta Room is a cloud-basedVR presentation platform that enables
+            business owners to quickly produce photorealistic, interactive,
+            multimedia experiences for their audiences. Requiring no coding or
+            programming, Delta Room lets users get to market faster than any
+            other platform with features such as instant sharing.
           </p>
           <button className="hero-banner__btn--start" type="submit">
             START
